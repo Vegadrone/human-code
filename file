@@ -30,10 +30,23 @@ Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacereb
                             - ListaRegali(Penna stilografica - Classico della letteratura) - ListaScartati (Lampada particolare - Bottiglia di vino - Trucchi)
                             - Prendiamo il terzo criterio "Budget"
                             - ListaRegali(Classico della letteratura) - ListaScartati (Penna Stilografica - Lampada particolare - Bottiglia di vino - Trucchi)
-                            - Scegliamo "Classico della letteratura"
-                            - Aggiungiamo al carrello
-                            - Acquisto con opzione regalo
-                            - Torniamo a dormire        
+                            - ?ListaRegali ha ancora elementi?
+                               - Se solo 1 scegliamo il risultato
+                                    - Scegliamo "Classico della letteratura"
+                                    - Aggiungiamo al carrello
+                                    - Acquisto con opzione regalo
+                                    - Torniamo a dormire        
+                               - Se 0 
+                                    - ? Vuoi sorprenderla?
+                                        - No
+                                            - Torniamo a dormire
+                                        - Sì
+                                            - Si crea una nuova lista regali 
+                                            - // Return row 22   
+                               - Se > 1
+                                    - Seleziono il regalo che costa meno
+                                    - Compro il regalo
+                                    - Torniamo a dormire
                         - Sì
                             - Scegliamo un regalo che mantenga i parametri della lista dei criteri
                             - Torniamo a dormire    
